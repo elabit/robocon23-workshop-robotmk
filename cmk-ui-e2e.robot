@@ -11,6 +11,8 @@ ${PASSWORD}       cmk
 
 *** Test Cases ***
 Check CMK Version
+    Open Browser    http://localhost/robomon/    firefox
+    Sleep    10
     Foo
 
 Check If User Is Present
