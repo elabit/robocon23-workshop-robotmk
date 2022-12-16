@@ -5,7 +5,7 @@ Test Setup        Open Browser    http://localhost/robomon/    firefox
 Test Teardown     Close Browser
 
 *** Variables ***
-${VERSION}        2.1.0p18
+${CMKVERSION}     2.1.0p18
 ${USER}           automation
 ${HOST}           localhost
 ${USERNAME}       cmkadmin
