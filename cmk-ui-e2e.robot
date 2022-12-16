@@ -1,6 +1,8 @@
 *** Settings ***
 Documentation     Tests for Workshop
 Library           SeleniumLibrary
+Test Setup        Open Browser    http://localhost/robomon/    firefox
+Test Teardown     Close Browser
 
 *** Variables ***
 ${VERSION}        2.1.0p18
@@ -11,7 +13,6 @@ ${PASSWORD}       cmk
 
 *** Test Cases ***
 Check CMK Version
-    Open Browser    http://localhost/robomon/    firefox
     Sleep    10
     Foo
 
