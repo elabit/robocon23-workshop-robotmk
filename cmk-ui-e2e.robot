@@ -14,7 +14,7 @@ ${PASSWORD}       cmk
 *** Test Cases ***
 Check CMK Version
     Sleep    1
-    Fail    msg=Hallo Philipp
+    Click Element    //a[@href="/chsgibtsnichteck_mk/"]
     Foo
 
 Check If User Is Present
