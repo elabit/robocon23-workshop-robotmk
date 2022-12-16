@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation     Tests for Workshop
 Library           SeleniumLibrary
+Suite Setup       SeleniumLibrary.Set Screenshot Directory    EMBED
 Test Setup        Open Browser    http://localhost/robomon/    headlessfirefox
 Test Teardown     Close Browser
 
