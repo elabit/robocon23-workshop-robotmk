@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation     Tests for Workshop
 Library           SeleniumLibrary
-Test Setup        Open Browser    http://localhost/robomon/    firefox
+Test Setup        Open Browser    http://localhost/robomon/    headlessfirefox
 Test Teardown     Close Browser
 
 *** Variables ***
