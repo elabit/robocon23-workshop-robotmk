@@ -13,13 +13,15 @@ ${PASSWORD}       cmk
 
 *** Test Cases ***
 Check CMK Version
-    Sleep    10
+    Sleep    1
     Foo
 
 Check If User Is Present
+    Sleep    1
     Foo
 
 Search Host
+    Sleep    1
     Foo
 
 *** Keywords ***
